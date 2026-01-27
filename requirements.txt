@@ -1,0 +1,7 @@
+torch
+torchaudio
+TTS==0.22.0
+soundfile
+numba==0.57.1
+llvmlite==0.40.1
+transformers==4.33.3

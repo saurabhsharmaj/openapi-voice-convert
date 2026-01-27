@@ -1,0 +1,26 @@
+Project Goal:
+Design and implement an open-source Python-based AI/ML system that converts input text into natural-sounding speech using customizable voice models.
+
+Description:
+The project will focus on building a Text-to-Speech (TTS) pipeline where the generated voice can be selected from multiple speakers (e.g., myself, friends, or family members). For each speaker, a custom voice model will be created and trained using their voice samples.
+
+The system will allow users to:
+
+Train or fine-tune voice models from recorded audio data
+
+Select a specific speaker’s voice model
+
+Convert any input text into speech using the selected voice
+
+Technical Requirements:
+
+Implemented entirely in Python
+
+Uses only open-source tools, frameworks, and models
+
+Supports multi-speaker voice modeling
+
+Modular pipeline for data preprocessing, training, inference, and audio output
+
+Outcome:
+A fully open-source, customizable text-to-speech system capable of generating speech in multiple personalized voices.

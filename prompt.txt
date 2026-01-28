@@ -24,4 +24,4 @@ Modular pipeline for data preprocessing, training, inference, and audio output
 
 Outcome:
 A fully open-source, customizable text-to-speech system capable of generating speech in multiple personalized voices.
-java
+java | python

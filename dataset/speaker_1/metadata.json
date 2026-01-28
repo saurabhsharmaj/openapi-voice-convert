@@ -1,0 +1,6 @@
+[
+  {
+    "text": "Sample voice for fine-tuning",
+    "audio_file": "dataset/speaker_1/saurabh.wav"
+  }
+]

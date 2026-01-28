@@ -14,23 +14,19 @@ def main():
     print("Loading XTTS model...")
     tts = TTS(MODEL_NAME)
 
-    text = "Welcome to the team ! Hoshiyar & Kaushik, Dinesh are excited to work with you."
+    text = "टीम में आपका स्वागत है। होशियार और कौशिक, दिनेश आपके साथ काम करने के लिए उत्साहित हैं।"
 
     for speaker, wav_path in VOICES.items():
-        print(f"Generating voice for: {speaker}")
-
-        output_path = os.path.join(OUTPUT_DIR, f"{speaker}_output.wav")
+        output_path = os.path.join(OUTPUT_DIR, f"{speaker}_hi.wav")
 
         tts.tts_to_file(
             text=text,
             speaker_wav=wav_path,
-            language="en",      # 🔥 REQUIRED
+            language="hi",     # ✅ Hindi
             file_path=output_path
         )
 
         print(f"Saved: {output_path}")
-
-    print("Done ✅")
 
 if __name__ == "__main__":
     main()

@@ -14,7 +14,7 @@ def main():
     print("Loading XTTS model...")
     tts = TTS(MODEL_NAME)
 
-    text = "Once upon a time, there was a crow who was very thirsty after flying for a long time under the hot sun. His throat was dry and he felt weak, so he searched everywhere for water. After a while, he noticed a pot with a little water at the bottom, but the level was too low for him to reach with his beak. Instead of giving up, the clever crow thought of an idea and began dropping small stones into the pot one by one. Slowly, the water level rose, allowing him to drink. Feeling refreshed and happy, the crow flew away, having solved his problem through intelligence and patience."
+    text = "Jai Shree Ram!!"
 
     for speaker, wav_path in VOICES.items():
         print(f"Generating voice for: {speaker}")

@@ -14,7 +14,7 @@ def main():
     print("Loading XTTS model...")
     tts = TTS(MODEL_NAME)
 
-    text = "Jai Shree Ram!!"
+    text = "Welcome to the team ! Hoshiyar & Kaushik"
 
     for speaker, wav_path in VOICES.items():
         print(f"Generating voice for: {speaker}")
